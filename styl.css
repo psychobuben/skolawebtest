@@ -118,7 +118,7 @@ footer {
     height: 40px;
     width: 40px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     header {
         height: auto;
         width: 100%;
@@ -159,9 +159,10 @@ footer {
         }
         nav ul li {
             padding: 0 12.5px;
-            margin: 0 5px;
+            margin: 0 0px;
             font-size: 0.5em;
             line-height: 2.25em;
+
         }
         nav ul a {
             color: white;
@@ -172,5 +173,6 @@ footer {
         .ikonadomu{
             height: 20px;
             width: 20px;
+
         }
     }
