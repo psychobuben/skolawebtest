@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css" type="text/css">
+    <title>Jan Konrád</title>
+</head>
+<body>
+<header>
+    <div id="logo">
+        <h1>Jan<span>Konrád</span></h1>
+        <small>Hudebník</small>
+    </div>
+    <nav>
+        <ul>
+                <li><a href="#domu"><img class="ikonadomu" src="obrazky/up.png"></li>
+                <li><a href="#Omně">O mně</a></li>
+                <li><a href="#hudba">Hudba</a></li>
+                <li><a href="#koncerty">Koncerty</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+    <div id="domu">
+        <img class="profil" src="obrazky/profil.png" alt="">
+    </div>
+        <section class="omne">
+    <div id="Omně" class="textbox">
+        <p>Zde bude váš text.</p>
+    </div>
+    </section>
+    <section>
+        <div id="hudba">
+            <iframe class="hudba" src="https://www.youtube.com/embed/kpdKoFas5Uw" title="Sound Check" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section>
+        <div id="koncerty">
+            <iframe class="koncerty" src="https://outlook.live.com/owa/calendar/00000000-0000-0000-0000-000000000000/ecf066c0-9367-41fe-a307-a68ea69b384e/cid-B7BEA6168F5981FA/index.html"></iframe>
+        </div>
+    </section>
+    <section class="kontakt">
+        <div class="textbox2" id="kontakt">
+            <label for="dotaz">Jaký je účel, vaší rezervace termínu?</label>
+            <select id="dotaz" name="dotaz">
+                <option value="koncert">koncert</option>
+                <option value="vyuka">výuka</option>
+            </select>
+            </div>
+            <div class="textbox2">
+            <label for="datum">Vyberte datum:</label>
+            <input type="date" id="datum" name="datum" min="2024-01-01" max="2024-12-31">
+            </div>
+            <div class="textbox2">
+            <label for="cas">Vyberte čas:</label>
+            <select id="cas" name="cas">
+                <option value="01:00">01:00</option>
+                <option value="02:00">02:00</option>
+                <option value="03:00">03:00</option>
+                <option value="04:00">04:00</option>
+                <option value="05:00">05:00</option>
+                <option value="06:00">06:00</option>
+                <option value="07:00">07:00</option>
+                <option value="08:00">08:00</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+                <option value="22:00">22:00</option>
+                <option value="23:00">23:00</option>
+                <option value="00:00">00:00</option>
+            </select>
+            </div>
+            <div class="textbox2">
+            <button type="button">odeslat e-mail</button>
+            </div>
+    </section>
+    <footer>
+        Vytvořil &copy;Jan Konrád 2023
+    </footer>
+    
+
+</body>
+</html>
